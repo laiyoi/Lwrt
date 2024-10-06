@@ -94,7 +94,7 @@ jobs:
         cp -rf common/. openwrt/
         cp -rf config/. openwrt/
         cd openwrt
-        cp -f common/..config .config
+        cp -f common/.config .config
         echo >> .config
         cat config/.config >> .config
 
